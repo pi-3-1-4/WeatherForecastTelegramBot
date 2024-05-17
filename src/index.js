@@ -26,7 +26,7 @@ bot.onText(/\/weather/,async msg=>{handleWeather(bot,msg)})
 
 bot.onText(/\/daily/,async msg=>{handleDailyUpdate(bot,msg)})
 
-bot.onText(/\/shutdown/,async msg=>{handleShutDown(bot,msg)})
+//bot.onText(/\/shutdown/,async msg=>{handleShutDown(bot,msg)})
 
 setTimeout(()=>{
     console.log('Server initialised at ::',new Date().toISOString())
